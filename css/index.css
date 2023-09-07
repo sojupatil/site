@@ -1,0 +1,32 @@
+.menu {
+  background-color: rgb(23, 0, 23);
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+
+.mtitle {
+  font-family: Oswald;
+  font-weight: 100;
+  margin: 0 10px;
+  color: white;
+}
+
+.mtitlec {
+  color: rgb(204, 255, 243);
+  font-weight: 800;
+}
+
+.menulinks {
+  color: red;
+  width: max-content;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menulinks a {
+  color: white;
+  margin: 0 10px;
+}
