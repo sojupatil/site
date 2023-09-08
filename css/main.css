@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+body{
+  background-color: rgb(243, 243, 255);
+}
+
 .heading {
   color: rgb(50, 0, 50);
 }

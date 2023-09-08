@@ -1,6 +1,6 @@
 .menu {
   background-color: rgb(23, 0, 23);
-  height: 90px;
+  height: 80px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -9,14 +9,9 @@
 
 .mtitle {
   font-family: Oswald;
-  font-weight: 100;
-  margin: 0 10px;
-  color: white;
-}
-
-.mtitlec {
-  color: rgb(204, 255, 243);
   font-weight: 800;
+  margin: 0 10px;
+  color: rgb(208, 255, 255);
 }
 
 .menulinks {
@@ -29,4 +24,8 @@
 .menulinks a {
   color: white;
   margin: 0 10px;
+}
+
+.fa-magnifying-glass{
+  font-size: small;
 }
