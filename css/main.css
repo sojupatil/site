@@ -7,12 +7,19 @@
   -webkit-user-select: none;
   user-select: none;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-body{
+body {
   background-color: rgb(243, 243, 255);
 }
 
 .heading {
   color: rgb(50, 0, 50);
+}
+
+.toFlexcenter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

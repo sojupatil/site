@@ -1,0 +1,32 @@
+.sdiv {
+  width: 300px;
+}
+
+#searchInput {
+  width: 100%;
+  outline: 0;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.0540);
+  border: 1px solid gray;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+#searchResults {
+  padding: 10px;
+}
+
+#searchResults a {
+  color: black;
+  font-weight: 600;
+}
+
+.searchr {
+  border: 0.1px solid rgba(0, 0, 0, 0.150);
+  background-color: rgba(0, 0, 0, 0.07);
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+}
