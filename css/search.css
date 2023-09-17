@@ -52,7 +52,7 @@ body {
   text-align: center;
   margin: 30px 0px;
   font-family: Poppins;
-  background-image: linear-gradient( #bc3f00, #004f12);
+  background-image: linear-gradient(#bc3f00, #004f12);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -64,7 +64,7 @@ body {
 
 @media screen and (max-width: 750px) {
   .sdiv {
-    width: 95%;
+    width: 300px;
   }
   .name-search {
     font-size: 45px;
