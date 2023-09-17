@@ -64,6 +64,10 @@ body {
     text-align: center;
     font-size: 40px;
   }
+
+  #menu ul{
+    border-top: 0.1px solid rgba(0, 0, 0, 0.200);
+  }
 }
 
 @media screen and (max-width: 375px) {
