@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
+
 body {
   background-image: url(https://media.tenor.com/NH_dhrT0B6MAAAAC/white-aesthetic.gif);
   background-repeat: no-repeat;
@@ -45,6 +47,22 @@ body {
   border-radius: 10px;
 }
 
-h3 {
-  margin: 10px;
+.name-search {
+  font-size: 100px;
+  text-align: center;
+  margin: 30px 0px;
+  font-family: Poppins;
+}
+
+#menu h1{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .sdiv {
+    width: 95%;
+  }
+  .name-search{
+    font-size: 45px;
+  }
 }
