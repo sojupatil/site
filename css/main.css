@@ -55,6 +55,23 @@ body {
   text-decoration: 2px underline;
 }
 
+
+p{
+  line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 980px) {
   #menu {
     display: block;
