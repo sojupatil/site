@@ -60,3 +60,10 @@ body {
     font-size: 40px;
   }
 }
+
+
+@media screen and (max-width:375px) {
+  #menu li{
+    font-size: small;
+  }
+}
