@@ -52,9 +52,13 @@ body {
   text-align: center;
   margin: 30px 0px;
   font-family: Poppins;
+  background-image: linear-gradient( #bc3f00, #004f12);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
-#menu h1{
+#menu h1 {
   font-size: 20px;
 }
 
@@ -62,7 +66,7 @@ body {
   .sdiv {
     width: 95%;
   }
-  .name-search{
+  .name-search {
     font-size: 45px;
   }
 }
