@@ -1,25 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --bigfont: Faustina;
+  --smallfont: Merriweather;
+  --bgcolor: rgb(255, 249, 243);
+  --bigcolor: rgb(35, 0, 0);
+  --maincolor: black;
+}
 
 * {
-  font-family: Montserrat;
+  font-family: var(--smallfont);
   margin: 0;
   padding: 0;
   -webkit-user-select: none;
   user-select: none;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
+  color: var(--maincolor);
 }
 
 body {
-  background-color: rgb(243, 243, 255);
+  background-color: var(--bgcolor);
 }
 
-.heading {
-  color: rgb(50, 0, 50);
-}
-
-.toFlexcenter {
+#menu {
+  color: var(--bigcolor);
+  border-bottom: 0.1px solid var(--bigcolor);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: center;
-  width: 100%;
+  align-items: center;
+}
+
+#menu h1 {
+  font-family: var(--bigfont);
+  font-weight: 900;
+  text-align: left;
+  padding: 15px;
+  font-size: 40px;
+}
+
+#menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  font-weight: 900;
+}
+
+#menu li:hover {
+  text-decoration: 2px underline;
+}
+
+@media screen and (max-width: 980px) {
+  #menu {
+    display: block;
+    text-align: center;
+  }
+  #menu h1 {
+    text-align: center;
+    font-size: 40px;
+  }
 }

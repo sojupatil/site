@@ -4,27 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Specs - Blog</title>
+    <title>Smart Specs- Blog</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <div class="menu">
 
-        <a href="">
-            <h1 class="mtitle">SMARTSPECS</h1>
-        </a>
+    <div id="menuloaded"></div>
 
-        <div class="menulinks">
-            <a href="">Gaming</a>
-            <a href="">Ai and Tech</a>
-            <a href="search">Search &nbsp; &nbsp;<i class="fa-solid fa-magnifying-glass"></i></a>
-        </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script src="https://kit.fontawesome.com/96d552640e.js" crossorigin="anonymous"></script>
-    <script src="js/ip.js"></script>
+    <script>
+        $(function () {
+            $("#menuloaded").load("menu.html #menu");
+        });
+    </script>
 </body>
 
 </html>

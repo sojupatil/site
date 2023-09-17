@@ -10,20 +10,40 @@
 </head>
 
 <body>
+    <div id="menuloaded"></div>
 
-    <h1>Website Search</h1>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(function () {
+            // Load the content of the specific div
+            $("#menuloaded").load("menu.html #menu");
+        });
+    </script>
 
 
-    <div class="toFlexcenter">
 
-        <div class="sdiv">
 
-            <input type="text" id="searchInput" placeholder="Search SmartSpecs ........                   🔍︎">
-            <div id="searchResults"></div>
+
+
+
+    <h1>SMARTSPECS</h1>
+    <div class="searchpage">
+
+        <div class="toFlexcenter">
+
+            <div class="sdiv">
+
+                <input type="text" id="searchInput" placeholder="🔍︎">
+                <div id="searchResults"></div>
+            </div>
         </div>
     </div>
 
+
+
     <script src="search.js"></script>
+    <script src="https://kit.fontawesome.com/96d552640e.js" crossorigin="anonymous"></script>
 
 </body>
 
