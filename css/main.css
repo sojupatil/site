@@ -55,22 +55,14 @@ body {
   text-decoration: 2px underline;
 }
 
-
-p{
-  line-height: 2;
+.extra-links {
+  font-size: xx-small;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  line-height: 0;
+  text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 980px) {
   #menu {
@@ -82,8 +74,8 @@ p{
     font-size: 40px;
   }
 
-  #menu ul{
-    border-top: 0.1px solid rgba(0, 0, 0, 0.200);
+  #menu ul {
+    border-top: 0.1px solid rgba(0, 0, 0, 0.2);
   }
 }
 

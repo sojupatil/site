@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: AR One Sans;
+  color: white;
+}
+
+body {
+  background-color: pink;
+  background-image: linear-gradient(rgb(35, 0, 41), rgb(21, 5, 0));
+  background-size: cover;
+  background-attachment: fixed;
+}

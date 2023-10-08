@@ -60,6 +60,7 @@ body {
 
 #menu h1 {
   font-size: 20px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 750px) {
