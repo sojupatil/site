@@ -9,6 +9,11 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+::selection{
+  background-color: #ff9b92;
+  color: white;
+}
+
 body {
   background-color: #02080f;
 }
