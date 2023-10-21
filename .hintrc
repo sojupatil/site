@@ -10,7 +10,6 @@
           "-webkit-tap-highlight-color"
         ]
       }
-    ],
-    "no-inline-styles": "off"
+    ]
   }
 }

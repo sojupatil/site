@@ -1,86 +1,96 @@
-@import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
-
-:root {
-  --bigfont: Faustina;
-  --smallfont: Merriweather;
-  --bgcolor: rgb(255, 249, 243);
-  --bigcolor: rgb(35, 0, 0);
-  --maincolor: black;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  font-family: var(--smallfont);
+  font-family: Montserrat;
   margin: 0;
   padding: 0;
-  -webkit-user-select: none;
-  user-select: none;
   text-decoration: none;
+  box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  color: var(--maincolor);
 }
 
 body {
-  background-color: var(--bgcolor);
+  background-color: #02080f;
 }
 
-#menu {
-  color: var(--bigcolor);
-  border-bottom: 0.1px solid var(--bigcolor);
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
+.menu {
+  height: 70px;
+  border-bottom: 1px solid rgba(255, 160, 160, 0.4);
+  width: 100%;
 }
 
-#menu h1 {
-  font-family: Poppins;
+.logo {
   font-weight: 800;
-  text-align: left;
-  padding: 15px;
-  font-size: 40px;
-  background-image: linear-gradient(#bc3f00, #004f12);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  margin: 20px;
+  font-size: xx-large;
+  line-height: 70px;
+  color: #f1f6f9;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
-#menu li {
-  list-style: none;
+ul {
+  float: right;
+  margin-right: 10px;
+}
+
+li {
   display: inline-block;
-  margin: 10px;
-  font-weight: 900;
-  font-family: var(--bigfont);
 }
 
-#menu li:hover {
-  text-decoration: 2px underline;
+ul li a {
+  line-height: 70px;
+  font-weight: 750;
+  color: #ff9b92;
+  font-size: small;
+  padding: 6px;
 }
 
-.extra-links {
-  font-size: xx-small;
-  position: absolute;
-  top: 0;
-  background-color: white;
-  line-height: 0;
-  text-align: center;
+ul li a:hover {
+  color: #02080f;
+  background-color: #ff9b92;
+  border-radius: 5px;
+  transition: 0.4s ease-in;
 }
 
-@media screen and (max-width: 980px) {
-  #menu {
+.fa-glasses {
+  color: #ff9b92;
+}
+
+#checkbox,
+.fa-bars {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  .menu {
+    text-align: center;
+  }
+
+  .menu .logo {
+    font-size: large;
+  }
+
+  ul {
+    position: fixed;
+    top: 70px;
+    text-align: center;
+    width: 100%;
+    left: -100%;
+  }
+
+  li {
     display: block;
-    text-align: center;
-  }
-  #menu h1 {
-    text-align: center;
-    font-size: 40px;
   }
 
-  #menu ul {
-    border-top: 0.1px solid rgba(0, 0, 0, 0.2);
+  .fa-bars {
+    color: #ff9b92;
+    font-size: x-large;
+    position: absolute;
+    left: 20px;
+    top: 25px;
   }
-}
 
-@media screen and (max-width: 375px) {
-  #menu li {
-    font-size: small;
+  #checkbox:checked ~ ul {
+    left: 0;
   }
 }
