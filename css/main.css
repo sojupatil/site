@@ -9,7 +9,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-::selection{
+::selection {
   background-color: #ff9b92;
   color: white;
 }
@@ -62,7 +62,7 @@ ul li a:hover {
 }
 
 #checkbox,
-.fa-bars {
+#menubutton {
   display: none;
 }
 
@@ -87,7 +87,8 @@ ul li a:hover {
     display: block;
   }
 
-  .fa-bars {
+  #menubutton {
+    display: block;
     color: #ff9b92;
     font-size: x-large;
     position: absolute;
@@ -97,5 +98,6 @@ ul li a:hover {
 
   #checkbox:checked ~ ul {
     left: 0;
+    transition: 0.2s ease-in;
   }
 }
