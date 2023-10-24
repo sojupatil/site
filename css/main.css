@@ -7,6 +7,7 @@
   text-decoration: none;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
+  color: white;
 }
 
 ::selection {
@@ -36,6 +37,7 @@ body {
 ul {
   float: right;
   margin-right: 10px;
+  z-index: 100;
 }
 
 li {
@@ -81,19 +83,21 @@ ul li a:hover {
     text-align: center;
     width: 100%;
     left: -100%;
+    background-color: #02080f;
+    height: 100vh;
   }
 
   li {
     display: block;
   }
 
-  #menubutton {
+  #menubutton , .fa-bars {
     display: block;
     color: #ff9b92;
     font-size: x-large;
     position: absolute;
-    left: 20px;
-    top: 25px;
+    left: 10px;
+    top: 10px;
   }
 
   #checkbox:checked ~ ul {
