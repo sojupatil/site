@@ -1,3 +1,7 @@
+a {
+  color: white;
+}
+
 .post-content {
   width: 700px;
   margin: 10px auto;
@@ -29,10 +33,11 @@
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
+  pointer-events: none;
 }
 
 .post-text p {
-  color: rgba(255, 235, 235, 0.900);
+  color: rgba(255, 235, 235, 0.9);
 }
 
 @media screen and (max-width: 1000px) {

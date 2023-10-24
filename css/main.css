@@ -68,6 +68,12 @@ ul li a:hover {
   display: none;
 }
 
+.index-posts{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 990px) {
   .menu {
     text-align: center;
